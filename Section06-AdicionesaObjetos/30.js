@@ -20,3 +20,13 @@ var persona = {
 
 console.log(persona["primer nombre"]);
 console.log(persona[apellido]);
+
+var subFijo = " nombre";
+
+var persona = {
+    ["primer" + subFijo]: "Melissa",
+    ["segundo" + subFijo]: "Karen"
+};
+
+console.log(persona["primer nombre"]);
+console.log(persona["segundo" + subFijo]);
