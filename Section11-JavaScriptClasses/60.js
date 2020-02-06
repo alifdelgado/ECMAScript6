@@ -7,3 +7,10 @@ class Persona{
         console.log(this.nombre);
     }
 }
+
+let fernando = new Persona('Fernando');
+fernando.decirNombre();
+
+console.log(fernando instanceof Persona);
+console.log(fernando instanceof Object);
+console.log(typeof fernando);
